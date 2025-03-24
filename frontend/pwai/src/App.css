@@ -1,0 +1,39 @@
+/* FileName: MultipleFiles/App.css */
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding-top: 60px; /* Ensure space for the fixed header */
+  color: black;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+input, select {
+  width: 300px;
+}
+
+button {
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.bg-gray-200 {
+  background-color: #e2e8f0; /* Light gray for login/signup */
+}
+
+.bg-gray-900 {
+  background-color: #1a202c; /* Dark gray for header */
+}
+
+.text-gray-600 {
+  color: #718096; /* Gray text */
+}
